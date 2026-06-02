@@ -2,6 +2,7 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 mail:
+  enabled: true # Set to false to supply your own mail server/relay
   existingSecret: postfix-password
   config:
     general:
